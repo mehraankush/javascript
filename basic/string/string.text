@@ -1,0 +1,7 @@
+\\	include backslash
+\n	new line
+\r	carriage return
+\v	vertical tab
+\t	horizontal tab
+\b	backspace
+\f	form feed
