@@ -1,0 +1,29 @@
+The numbers are stored in 64 bits (the number is stored in 0 to 51 bit positions,
+ the exponent in 52 to 62 bit positions and the sign in 63 bit position).
+
+ number functions
+
+ isNaN()	    determines whether the passed value is NaN
+isFinite()	    determines whether the passed value is a finite number
+isInteger()	    determines whether the passed value is an integer
+isSafeInteger()	determines whether the passed value is a safe integer
+parseFloat(string)	           converts the numeric floating string to floating-point number
+parseInt(string, [radix])	    converts the numeric string to integer
+toExponential(fractionDigits)	returns a string value for a number in exponential notation
+toFixed(digits)   	returns a string value for a number in fixed-point notation
+toPrecision()	    returns a string value for a number to a specified precision
+toString([radix])	returns a string value in a specified radix(base)
+valueof()	        returns the numbers value
+toLocaleString()	returns a string with a language sensitive representation of a number
+
+NUMBER PROPERTIES 
+
+EPSILON	returns     the smallest interval between two representable numbers
+MAX_SAFE_INTEGER	returns the maximum safe integer
+MAX_VALUE	        returns the largest possible value
+MIN_SAFE_INTEGER	returns the minimum safe integer
+MIN_VALUE	        returns the smallest possible value
+NaN	                represents 'Not-a-Number' value
+NEGATIVE_INFINITY	represents negative infinity
+POSITIVE_INFINITY	represents positive infinity
+prototype	        allows the addition of properties to Number objects
