@@ -7,7 +7,7 @@ class person {
             console.log(this.age);
 
             let innerf = () =>
-                {console.log(this.age);}   //20 now it'll acces the within the function.
+                {console.log(this.age);}   //20 now it'll acces the within the parent scope.
 
             innerf();
         };
