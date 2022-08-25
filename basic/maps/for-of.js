@@ -25,3 +25,4 @@ map1.forEach(function(value, key) {
   })
   
   //both of them will give the same result
+  //The for...of loop cannot be used to iterate over an object.
