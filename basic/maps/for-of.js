@@ -15,6 +15,11 @@ map1.set('Eduaction','graduating');
 //      console.log(key);
 //  }
 
+
+  for(let key of map1.entries()){
+      console.log(`${key[0]}: ${key[1]}`);  //it'll print the key and valuees in pairs
+  }
+
 map1.forEach(function(value, key) {
     console.log(key + '- ' + value)
   })
