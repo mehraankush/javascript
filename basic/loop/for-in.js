@@ -4,6 +4,7 @@ const student={
     Ankush : 89
 }
 
+//The for...in loop is used to iterate through the keys of an object.
 for (let i in student){
     console.log(`${i}=> ${student[i]}`);
 }
