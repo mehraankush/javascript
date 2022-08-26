@@ -16,7 +16,7 @@ class student extends person{
         // call the super class constructor and pass in the name parameter
         //when the constructor of Student class is called, it also calls
         // the constructor of the Person class
-        super(name);
+        super(name); //pass the parameters which is parent class constructor is taking
      }
 }
 
