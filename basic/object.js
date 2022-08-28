@@ -9,6 +9,7 @@ const person={
     greet: function(){console.log('welcome');}
 }
 
+delete person.age;
 console.log(person["name"]);
 console.log(person.age);
 console.log(person.marks.sci);
