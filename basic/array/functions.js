@@ -13,7 +13,7 @@ console.log(index);
 days.sort();
 console.log(days);
 
-let slice = days.slice(1);
+let slice = days.slice(1);  //slice(start,end); index numbers
 console.log(slice);
 
 let splice = days.splice(1,0,"mehra","sis");
